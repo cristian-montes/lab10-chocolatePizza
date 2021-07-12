@@ -51,8 +51,17 @@ p {
 #ingredients {
     background-image: url('../assets/list-bg.png');
     background-repeat: repeat-y;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
     /* display: grid;
     justify-content:space-between; */
-    list-style-type: square;
 }
 
+li {
+    word-wrap: break-word;
+    list-style-type:square;
+}
+#left {
+    margin-left: 35px;
+}
